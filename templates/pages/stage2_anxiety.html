@@ -1,0 +1,326 @@
+{% load static%}
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <meta name="keywords" content="​Design for new generation">
+      <meta name="description" content="">
+      {% if blur %}
+    <style>
+      body {
+        filter: blur(5px);
+        -webkit-filter: blur(5px); /* for Safari and Chrome */
+      }
+    </style>
+    {% endif %}
+      <title>stage2_anxiety</title>
+      <link rel="stylesheet" href="{% static 'style/nicepage.css' %}" media="screen">
+      <link rel="stylesheet" href="{% static 'style/stage2_anxiety.css' %}" media="screen">
+      <script class="u-script" type="text/javascript" src="{%static 'js/jquery-1.9.1.min.js' %}" defer=""></script>
+      <script class="u-script" type="text/javascript" src="{%static 'js/nicepage.js' %}" defer=""></script>
+      <meta name="generator" content="Nicepage 5.4.6, nicepage.com">
+      <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+      <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+      <style>
+         #bg
+         {
+         background:#FBAEBF;
+         border-radius:2%;
+         }
+         #ba
+         {
+         color:#FBAEBF;
+         }
+      </style>
+      <script type="application/ld+json">{
+         "@context": "http://schema.org",
+         "@type": "Organization",
+         "name": ""
+         }
+      </script>
+      <meta name="theme-color" content="#478ac9">
+      <meta property="og:title" content="stage2_anxiety">
+      <meta property="og:type" content="website">
+      <meta data-intl-tel-input-cdn-path="intlTelInput/">
+   </head>
+   <header class="u-align-center-xs u-border-1 u-border-grey-25 u-clearfix u-header" id="sec-5bd4" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+      <div class="u-clearfix u-sheet u-sheet-1">
+         <nav class="u-align-left u-menu u-menu-hamburger u-nav-spacing-25 u-offcanvas u-menu-1" data-responsive-from="XL">
+            <div class="menu-collapse">
+               <a class="u-button-style u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
+                  <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style="">
+                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7b92"></use>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-7b92" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content">
+                     <g>
+                        <rect y="36" width="302" height="30"></rect>
+                        <rect y="236" width="302" height="30"></rect>
+                        <rect y="136" width="302" height="30"></rect>
+                     </g>
+                     
+                  </svg>
+               </a>
+            </div>
+            <div class="u-custom-menu u-nav-container">
+               <ul class="u-nav u-spacing-20 u-unstyled u-nav-1">
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="#" style="padding: 10px;">Menu</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/" target="_blank" style="padding: 10px;">Home</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/login" target="_blank" style="padding: 10px;">Login</a></li>
+                  <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/register" target="_blank" style="padding: 10px;">Register</a></li>
+               </ul>
+            </div>
+            <div class="u-custom-menu u-nav-container-collapse">
+               <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                  <div class="u-inner-container-layout u-sidenav-overflow">
+                     <div class="u-menu-close"></div>
+                     <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                        <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#">Menu</a></li>
+                        <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/" target="_blank">Home</a></li>
+                        <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/login" target="_blank">Login</a></li>
+                        <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/register" target="_blank">Register</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+            </div>
+         </nav>
+         <p class="u-text u-text-palette-5-base u-text-1">Stress and Anxiety Detection </p>
+         <div class="u-list u-list-1">
+            <div class="u-repeater u-repeater-1">
+               <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                     <a href="" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-body-alt-color u-btn-1" title="home"><span class="u-file-icon u-icon u-icon-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/3293413.png'%}" alt=""></span>&nbsp;Home
+                     </a>
+                  </div>
+               </div>
+               {%if user.is_authenticated%}
+               <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                     <a href="/personal"  title="profile">
+                        &nbsp;
+                        <p  title="name">{{user.email}}</p>
+                     </a>
+                  </div>
+               </div>
+               {%else%}
+               <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                     <a href="/register" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-body-alt-color u-btn-2" title="register"><span class="u-file-icon u-icon u-icon-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/2921144.png' %}" alt=""></span>&nbsp;REGISTER
+                     </a>
+                  </div>
+               </div>
+               <div class="u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                     <a href="/login" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-body-alt-color u-btn-3" title="login"><span class="u-file-icon u-icon u-icon-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/8875055.png' %}" alt=""></span>&nbsp;LOGIN
+                     </a>
+                  </div>
+               </div>
+               {%endif%}
+            </div>
+         </div>
+         {%if user.is_authenticated%}
+         <a href="/out" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-white u-btn-4" title="logout"><span class="u-file-icon u-icon u-icon-4" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/4210146.png' %}" alt=""></span>&nbsp;LOGOUT
+         </a>
+         {%endif%}
+         <a href="/out" class="u-image u-logo u-image-1" data-image-width="1280" data-image-height="853">
+         <img src="{% static 'images/a5d9783994f73a3bb481d66c4b514487008fc5cddd16cefa985b49f20ed59b071e6be134910bd37996549ec2e62565a8f865dcf59ca91df015bfe2_1280.png'%}" class="u-logo-image u-logo-image-1">
+         </a>
+         <a href="/contact" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-white u-btn-5" title="logout"><span class="u-file-icon u-icon u-icon-5" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/9458899.png' %}" alt=""></span>&nbsp;CONTACT
+         </a>
+      </div>
+   </header>
+   <body class="u-body u-xl-mode" data-lang="en">
+     
+      <section class="u-align-center u-clearfix u-section-2" id="sec-6c72">
+         <form action="{%url 'Anxiety_Stag2'%}" method="post">
+            {%csrf_token%}
+            <div class="u-clearfix u-sheet u-sheet-1">
+               <a href="#pop4" class="u-border-2 u-border-palette-2-base u-btn u-btn-round u-button-style u-dialog-link u-palette-2-light-1 u-radius-7 u-btn-1">Click here for Rules!!!</a>
+               
+               <div class="u-list u-list-1">
+                  <div class="u-repeater u-repeater-1">
+                    {% for key, value in questions.items %}
+                     <div id="bg"class="u-align-center u-container-style u-custom-item u-list-item  u-repeater-item u-list-item-1">
+                        <div class="u-container-layout u-similar-container u-container-layout-1">
+                           <h4 class="u-text u-text-white u-text-1">Question</h4>
+                           <span class="u-icon u-icon-rectangle u-opacity u-opacity-20 u-icon-1">
+                              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                                 <use xlink:href="#svg-934b"></use>
+                              </svg>
+                              <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-934b">
+                                 <g>
+                                    <path clip-rule="evenodd" d="M467.36,203.825c-2.723-15.031-11.551-25.031-27.774-31.483   c-17.327-6.85-35.668-8.639-53.413-10.368l-7.963-0.795c-0.685-0.07-1.371-0.109-2.048-0.109c-6.739,0-11.411,3.619-12.475,9.663   c-0.587,3.38-0.05,6.252,1.579,8.539c1.97,2.764,5.587,4.633,10.448,5.408c5.627,0.874,11.304,1.48,16.97,2.087   c6.521,0.707,13.043,1.402,19.494,2.515c27.258,4.722,33.929,12.287,35.679,40.45c0.208,3.469,0.596,6.918,0.974,10.358   c0.269,2.386,0.537,4.762,0.745,7.148c3.172,36.136,5.438,78.751-1.68,120.802c-2.963,17.428-15.249,28.689-31.553,28.689   l-3.369-0.02c-21.781,0-43.82,1.789-65.134,3.518c-21.253,1.721-43.223,3.5-64.874,3.5c-5.557,0-11.104-0.109-16.666-0.367   c-1.099-0.049-2.178-0.08-3.241-0.08c-16.556,0-30.2,6.123-42.945,19.266c-12.232,12.625-25.707,25.707-42.398,41.137l-1.058,0.982   c-3.246,3.023-6.924,6.443-10.925,6.443c-0.755,0-1.521-0.131-2.262-0.379c-4.215-1.432-4.066-5.1-3.897-9.354   c0.075-1.83,0.15-3.709-0.169-5.418c-0.413-2.227-0.671-4.484-0.934-6.73c-0.229-1.979-0.457-3.947-0.786-5.906   c-6.164-37.059-6.566-37.436-42.776-40.33l-3.802-0.297c-16.08-1.244-31.27-2.416-40.922-19.266   c-5.631-9.813-6.333-19.752-7.067-30.271c-0.189-2.643-0.374-5.297-0.642-7.941c-3.618-35.43-4.101-73.324-1.576-122.9   c1.178-23.083,11.313-33.371,32.85-33.371c2.296,0,4.712,0.119,7.252,0.348c2.451,0.219,4.896,0.507,7.337,0.795   c4.9,0.577,9.97,1.174,15.06,1.183c7.734,0,12.481-4.255,12.694-11.392c0.194-6.491-3.797-10.896-10.671-11.78l-2.853-0.368   c-8.887-1.153-18.072-2.346-27.109-2.346c-7.917,0-14.876,0.915-21.264,2.814c-19.529,5.775-31.323,18.181-35.051,36.88   c-1.044,5.24-1.864,10.598-2.5,16.383c-1.764,16.154-1.695,32.596-1.625,49.127c-0.458,23.629,0.492,48.65,2.818,74.379   c0.741,8.23,1.615,16.451,2.609,24.652c3.633,30.262,22.04,49.129,53.224,54.566c8.221,1.422,16.263,2.387,23.903,2.863   c10.632,0.666,15.543,5.965,16.433,17.715c0.929,12.416,2.316,24.732,4.115,36.592c2.222,14.633,6.536,20.607,14.896,20.607   c4.275,0,9.598-1.59,17.263-5.148c18.401-8.52,32.095-22.627,45.341-36.264c7.903-8.133,16.069-16.553,25.116-23.621   c7.352-5.736,13.395-8.191,20.872-8.49c33.933-1.301,67.87-2.873,101.789-4.443l48.283-2.207   c32.974-1.461,54.726-18.799,59.665-47.547C480.145,322.977,478.853,267.229,467.36,203.825z" fill-rule="evenodd"></path>
+                                    <path clip-rule="evenodd" d="M161.816,136.167l16.413,1.77c7.778,0.825,15.557,1.649,23.346,2.564   c1.62,0.179,3.166,0.278,4.622,0.278c5.632,0,9.757-1.401,12.61-4.294c3.057-3.102,4.503-7.744,4.419-14.206   c-0.09-8.241,3.25-15.518,6.879-22.159c4.513-8.38,9.29-15.885,18.142-15.885c2.018,0,4.235,0.397,6.581,1.173   c11.592,3.937,15.682,14.344,11.501,29.326c-5.914,21.333-19.062,40.926-40.206,59.894c-18.674,16.93-26.348,34.018-24.166,53.671   c-0.189,23.282,0.834,35.479,7.152,41.851c4.23,4.266,10.717,6.004,22.383,6.004c4.786,0,10.353-0.277,16.765-0.725   c1.133,0,2.271,0,3.295-0.09c21.642-1.451,26.732-6.859,25.896-27.566c-0.457-11.989,3.222-20.886,11.909-28.839   c13.56-12.555,26.741-24.922,38.969-38.073c36.205-38.531,37.934-91.755,4.395-135.585c-16.373-21.413-50.104-35.24-85.925-35.24   c-19.654,0-37.154,4.225-50.6,12.237c-31.423,18.719-47.9,48.909-51.847,95.036C143.451,127.936,149.818,134.815,161.816,136.167z    M226.75,232.833l-0.049-7.058c-2.769-12.238,4.076-21.91,16.009-33.551c18.874-18.46,39.142-41.474,46.389-72.201   c5.39-22.755,1.114-38.232-13.888-50.171c-7.808-6.164-16.401-9.295-25.538-9.295c-5.562,0-11.481,1.153-17.6,3.439   c-16.303,6.044-22,20.538-27.507,34.555c-0.775,1.958-1.546,3.927-2.341,5.855c-2.783,6.72-4.717,10.537-12.068,10.796l-2.222,0.03   c-8.052,0-12.913-1.461-15.31-4.603c-2.455-3.221-2.559-8.5-0.328-16.622c10.747-38.978,34.754-58.791,71.361-58.88h2.207   c25.111,0,50.848,3.112,68.97,25.678c25.34,31.373,23.232,75.621-5,105.214c-7.059,7.396-14.752,14.355-22.188,21.085l-8.052,7.326   c-13.698,12.685-27.864,25.807-27.198,47.627c0.119,3.33-0.572,5.755-2.118,7.406c-2.336,2.505-6.486,3.142-12.838,3.33   c-3.927,0-6.675-0.875-8.4-2.674c-1.724-1.799-2.48-4.563-2.316-8.46C226.786,238.937,226.771,236.242,226.75,232.833z" fill-rule="evenodd"></path>
+                                    <path clip-rule="evenodd" d="M246.97,279.654c-27.417,0-51.543,22.705-51.638,48.602   c0,24.564,22.218,48.313,45.723,48.859l0.691,0.01c24.743,0,45.724-25.121,45.823-54.863   C287.569,295.182,272.768,279.654,246.97,279.654z M241.652,352.193c-10.985,0-20.767-10.477-21.363-22.863   c-0.268-6.521,1.442-11.82,5.085-15.758c4.787-5.178,12.809-8.002,23.854-8.41l1.158-0.02c8.608,0,12.063,4.803,12.321,17.139   C262.971,338.514,254.014,351.646,241.652,352.193z" fill-rule="evenodd"></path>
+                                 </g>
+                              </svg>
+                           </span>
+                           <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+                              <p>{{ value.question_display }}
+                              </p>
+                              {%for answerkey,answerChoice in value.answer_choices.items %}
+                              <input type="radio" id="{{key}}" name="{{key}}" value="{{answerkey}}">{{answerChoice}}<br><br>
+                                
+                               {%endfor%}
+                           </div>
+                        </div>
+                     </div>
+                     {%endfor%}
+                  </div>
+               </div>
+               
+            </div>
+            <button class="u-btn u-btn-round 
+               u-button-style u-palette-2-base u-radius-5 u-block-ef42-53" >submit</button></div></div>
+         </form>
+      </section>
+     
+      <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-96a5">
+         <div class="u-clearfix u-sheet u-sheet-1">
+            <p class="u-small-text u-text u-text-variant u-text-1">Thank you for visiting...!!!</p>
+            <div class="u-list u-list-1">
+               <div class="u-repeater u-repeater-1">
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                        <a href="/" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-1" rel="nofollow">Home</a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                        <a href="/Register" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-2" rel="nofollow">Register</a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                        <a href="/login" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-3" rel="nofollow">Login<span class="u-text-body-alt-color"></span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+                        <a href="/Contact" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-4" rel="nofollow">Contact</a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5">
+                        <a href="/out" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-5" rel="nofollow">Logout</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <section class="u-align-center u-black u-clearfix u-container-style u-dialog-block u-opacity u-opacity-70 u-valign-middle u-dialog-section-5" id="pop4">
+         <div class="u-container-style u-dialog u-radius-13 u-shape-round u-white u-dialog-1">
+            <div class="u-container-layout u-container-layout-1">
+               <span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1">
+                  <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 508.1 508.1" style="">
+                     <use xlink:href="#svg-e220"></use>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 508.1 508.1" x="0px" y="0px" id="svg-e220" style="enable-background:new 0 0 508.1 508.1;">
+                     <path style="fill:#F6B44B;" d="M217.4,407.45c-2.4,4.6-5.2,9.1-8.2,13.3c-4.2,5.9-8.8,11.3-13.9,16.4  c-23.5,23.5-56.1,37.8-92.5,37.2c-0.1-7.5,0.6-14.9,1.7-22c-19.2,11-41.5,17.2-65.6,16.8c-0.3-24.1,5.9-46.4,16.8-65.6  c-7.1,1.1-14.5,1.8-22,1.6c-0.6-44.1,20.6-82.9,53.6-106.4c4.2-3,8.7-5.8,13.3-8.2c-0.1,0.5-0.2,1.1-0.3,1.6  c11.4,1.5,22.6,4.5,33.4,9c7.1,2.9,13.9,6.4,20.5,10.6c8.3,5.2,16.1,11.4,23.3,18.6s13.3,15,18.5,23.3c4.2,6.6,7.8,13.4,10.7,20.5  c4.5,10.8,7.5,22,9,33.4C216.4,407.65,216.9,407.55,217.4,407.45z"></path>
+                     <path style="fill:#FFD05C;" d="M206.8,374.35c-4.7,17.7-13.9,33.9-27.1,47.1c-14.5,14.5-32.6,24.2-52.3,28.4l6.1-39.6l-40,22.8  c-9.3,5.4-19.4,9.2-30,11.5c2.3-10.5,6.2-20.6,11.5-30l22.8-40l-39.6,6.1c4.2-19.7,13.9-37.8,28.4-52.3  c13.2-13.2,29.4-22.4,47.1-27.1c7.1,2.9,13.9,6.4,20.5,10.6c8.3,5.2,16.1,11.4,23.3,18.6s13.3,15,18.5,23.3  C200.3,360.45,203.9,367.25,206.8,374.35z"></path>
+                     <path style="fill:#41596B;" d="M200.7,508.05c2.6-2.2,5.3-4.6,7.8-7.2c25.1-25.1,38.8-57.2,41.2-90.1c3-39.8-10.7-80.7-41.2-111.2  s-71.3-44.2-111.2-41.2c-32.8,2.4-65,16.1-90.1,41.2c-2.5,2.5-4.9,5.2-7.2,7.8c4.8-38.3,21.8-75.4,51.2-104.8  c27.5-27.5,61.6-44.2,97.1-50.2c55.4-9.3,114.3,7.4,157.1,50.2c42.7,42.7,59.5,101.7,50.2,157.1c-6,35.6-22.7,69.7-50.2,97.1  C276.1,486.25,239,503.25,200.7,508.05z"></path>
+                     <path style="fill:#334A5E;" d="M355.7,359.75c-32,22.1-67.6,39.6-105.9,51.1c3-39.8-10.7-80.7-41.2-111.2s-71.3-44.2-111.2-41.2  c11.5-38.4,29-74,51.1-105.9c55.4-9.3,114.3,7.4,157.1,50.2C348.2,245.35,365,304.35,355.7,359.75z"></path>
+                     <path style="fill:#F2705B;" d="M215.9,407.75c-2.6-18.9-9.1-37.3-19.7-53.9c-5.2-8.3-11.4-16.1-18.6-23.3  c-7.2-7.2-15-13.4-23.3-18.6c-16.6-10.6-35-17.1-53.9-19.7c29.8-143.3,143.1-256.1,286.8-285c23.5-4.7,47.8-7.2,72.8-7.2h48.1v48.1  c0,24.9-2.5,49.3-7.2,72.8C472,264.65,359.2,377.95,215.9,407.75z"></path>
+                     <path style="fill:#FFFFFF;" d="M397.6,110.55c-31.4-31.4-82.3-31.4-113.7,0c-15.7,15.7-23.6,36.3-23.5,56.9  c0.1,20.5,7.9,41.1,23.5,56.7s36.1,23.5,56.6,23.6c20.7,0.1,41.3-7.8,57-23.6C429,192.85,429,141.95,397.6,110.55z"></path>
+                     <circle style="fill:#89D6F7;" cx="340.8" cy="167.35" r="53.5"></circle>
+                     <path style="fill:#41596B;" d="M248.9,259.25L248.9,259.25L248.9,259.25c-53.5,18.8-112.1,77.4-130.8,130.8l0,0  C171.5,371.25,230.1,312.75,248.9,259.25z"></path>
+                     <path style="fill:#334A5E;" d="M500.9,120.95L387.2,7.25c23.5-4.7,47.8-7.2,72.8-7.2h48.1v48.1  C508.1,73.05,505.6,97.45,500.9,120.95z"></path>
+                  </svg>
+               </span>
+               <h2 id="ba" class="u-align-center u-text u-text-default u-text-palette-2-base u-text-1">Start Now</h2>
+               <p class="u-align-center u-text u-text-default u-text-2">1.Must be alone in a quiet, well-lit room.<br>2.No copying or memorizing responses from other sources.<br>3.&nbsp;No communication with anyone else.<br>4.Do not use any predictive input method or grammar/spelling checkers.<br>5.Do not leave the test window for any reason.<br>Note: There is no right or wrong answers.
+               </p>
+               <a href="" class="u-btn u-btn-round u-button-style u-hover-palette-2-base u-palette-2-base u-radius-50 u-text-body-alt-color u-text-hover-white u-btn-1">Get Started</a>
+            </div>
+            <button class="u-dialog-close-button u-icon u-text-grey-50 u-icon-2">
+               <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 413.348 413.348" style="">
+                  <use xlink:href="#svg-5801"></use>
+               </svg>
+               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 413.348 413.348" id="svg-5801">
+                  <path d="m413.348 24.354-24.354-24.354-182.32 182.32-182.32-182.32-24.354 24.354 182.32 182.32-182.32 182.32 24.354 24.354 182.32-182.32 182.32 182.32 24.354-24.354-182.32-182.32z"></path>
+               </svg>
+            </button>
+         </div>
+      </section>
+      <style>.u-dialog-section-5 .u-dialog-1 {
+         width: 566px;
+         min-height: 525px;
+         height: auto;
+         box-shadow: -2px -2px 8px 0px rgba(128,128,128,1);
+         margin: 60px auto;
+         }
+         .u-dialog-section-5 .u-container-layout-1 {
+         padding: 40px 19px;
+         }
+         .u-dialog-section-5 .u-icon-1 {
+         height: 64px;
+         width: 64px;
+         margin: 27px auto 0;
+         }
+         .u-dialog-section-5 .u-text-1 {
+         font-size: 2.5rem;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+         margin: 20px auto 0;
+         }
+         .u-dialog-section-5 .u-text-2 {
+         margin: 7px auto 0 9px;
+         }
+         .u-dialog-section-5 .u-btn-1 {
+         border-style: none;
+         font-size: 1rem;
+         background-image: none;
+         font-weight: 700;
+         margin: 34px auto 0;
+         padding: 9px 47px 10px 46px;
+         }
+         .u-dialog-section-5 .u-icon-2 {
+         width: 15px;
+         height: 15px;
+         left: auto;
+         top: 17px;
+         position: absolute;
+         right: 16px;
+         }
+         @media (max-width: 1199px) {
+         .u-dialog-section-5 .u-text-2 {
+         margin-left: 9px;
+         }
+         }
+         @media (max-width: 991px) {
+         .u-dialog-section-5 .u-container-layout-1 {
+         padding-top: 30px;
+         padding-bottom: 30px;
+         }
+         }
+         @media (max-width: 767px) {
+         .u-dialog-section-5 .u-dialog-1 {
+         width: 540px;
+         }
+         .u-dialog-section-5 .u-container-layout-1 {
+         padding-top: 45px;
+         padding-left: 30px;
+         padding-right: 30px;
+         }
+         }
+         @media (max-width: 575px) {
+         .u-dialog-section-5 .u-dialog-1 {
+         width: 340px;
+         min-height: 404px;
+         }
+         .u-dialog-section-5 .u-container-layout-1 {
+         padding-top: 40px;
+         padding-left: 25px;
+         padding-right: 25px;
+         }
+         .u-dialog-section-5 .u-text-1 {
+         font-size: 1.875rem;
+         margin-top: 29px;
+         }
+         }
+      </style>
+   </body>
+</html>

@@ -1,0 +1,54 @@
+{% extends 'pages/counsellor_home.html' %}
+{%load mytags%}
+{%block content%}
+<div class="card">
+    <div class="card-body">
+        <!--<i class="fa fa-pen fa-xs edit"></i>-->
+        <form action="{%url 'lobby'%}">
+          <button
+          class="u-active-palette-5-light-2 u-border-none 
+          u-btn u-btn-round u-button-style u-hover-palette-5-light-2 
+          u-palette-5-base u-radius-50 u-text-body-alt-color u-text-hover-white u-btn-1">Create Room</button>
+        </form>
+        <form method="POST" > 
+          {%csrf_token%}
+        <table style="margin-left:auto;margin-right:auto;border-spacing: 65px">
+            <tbody>
+              <tr>
+                <th style="color:#f43a63">Id</th>
+                <th style="color:#f43a63">Email</th>
+                <th style="color:#f43a63">Name</th>
+                <th style="color:#f43a63">Result</th>
+              </tr>
+              {% comment %} {%for n in name%} {% endcomment %}
+                <tr>
+                  {% for ele in res%}
+              {% for a in ele%}
+                  <td>{{a.id}}</td>
+                  <td>{{a.email}}</td>
+                  
+                  <td>{{a.name|decrypt}}</td>
+                  {% endfor%}
+              
+                 
+                  <td><a href="{%url 'document' obj=a.id %}">View report</a></td>
+                  
+              </tr>
+              {%endfor%}
+                
+                
+            
+              
+              
+            </tbody>
+        </table>
+    </form>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+
+{%endblock%}

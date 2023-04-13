@@ -1,0 +1,55 @@
+{% extends 'pages/counsellor_home.html' %}
+{%load mytags%}
+{%block content%}
+<div class="card">
+    <div class="card-body">
+        <!--<i class="fa fa-pen fa-xs edit"></i>-->
+        <form method="POST">
+          {%csrf_token%}
+        
+          <table style="margin-left:auto;margin-right:auto;border-spacing: 55px">
+            <tbody>
+              <tr>
+                <th>Id</th>
+                <th>Email</th>
+                 <th>Name</th>
+                <th>Result</th>
+              <th>Find Psychologist</th>
+              </tr>
+              {% for ele in res%}
+              {% for a in ele%}
+              
+              
+                <tr>
+                  
+                  <td>{{a.id}}</td>
+                  <td>{{a.email}}</td>
+                 
+                  <td>{{a.name|decrypt}}</td>
+                  
+                  <td><a href="{%url 'document' obj=a.id %}">View report</a></td>
+                  <td><a href="{%url 'get_lat_long' obj=a.id%}">Get</a></td>
+                  
+              </tr>
+              
+              {%endfor%}
+              {% endfor%}
+              
+                
+                
+                
+            
+              
+              
+            </tbody>
+        </table>
+    </form>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+
+{%endblock%}

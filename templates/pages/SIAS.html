@@ -1,0 +1,211 @@
+{%load static%}
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+      <meta name="keywords" content="STAGE -3">
+      <meta name="description" content="">
+      {% if blur %}
+    <style>
+      body {
+        filter: blur(5px);
+        -webkit-filter: blur(5px); /* for Safari and Chrome */
+      }
+    </style>
+    {% endif %}
+      <title></title>
+      <link rel="stylesheet" href="{% static 'style/nicepage.css' %}" media="screen" class="u-static-style">
+      <link rel="stylesheet" href="{% static 'style/gad.css' %}" media="screen" class="u-static-style">
+      <link rel="stylesheet" href="{% static 'style/stage1.css' %}" media="screen" class="u-static-style">
+      <script class="u-script" type="text/javascript" src="{% static 'js/jquery-1.9.1.min.js' %}" defer=""></script>
+      <script class="u-script" type="text/javascript" src="{% static 'js/nicepage.js' %}" defer=""></script>
+   </head>
+   <body class="u-body u-xl-mode" data-style="blank"  data-global-section-properties="{&quot;colorings&quot;:{&quot;light&quot;:[&quot;clean&quot;],&quot;colored&quot;:[&quot;clean&quot;],&quot;dark&quot;:[&quot;dark&quot;]}}" data-source="" data-lang="en" data-page-sections-style="[{&quot;name&quot;:&quot;blank&quot;}]" data-page-coloring-types="{&quot;light&quot;:[&quot;clean&quot;],&quot;colored&quot;:[&quot;clean&quot;],&quot;dark&quot;:[&quot;dark&quot;]}" data-page-category="&quot;Basic&quot;">
+      <section class="u-align-center u-clearfix u-grey-5 u-block-e7c5-1" custom-posts-hash="[[I,T],[I,T],[I,T]]" data-section-properties="{&quot;margin&quot;:&quot;none&quot;,&quot;stretch&quot;:true}" data-id="e7c5" data-posts-content="[{'images':[[325,222]],'maps':[],'videos':[],'icons':[],'textWidth':1140,'textHeight':560,'id':1,'groupId':2,'headingProp':'h4','textProp':'text'},{'images':[[325,222]],'maps':[],'videos':[],'icons':[],'textWidth':1140,'textHeight':560,'id':3,'groupId':2,'headingProp':'h4','textProp':'text'},{'images':[[325,222]],'maps':[],'videos':[],'icons':[],'textWidth':1140,'textHeight':560,'id':4,'groupId':2,'headingProp':'h4','textProp':'text'}]" data-style="blog-posts-1" id="carousel_b230" data-source="functional_fix" data-height-lg="689" data-height-md="623.2105263157894">
+      <header class="u-align-center-xs u-border-1 u-border-grey-25 u-clearfix u-header" id="sec-5bd4" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+         <div class="u-clearfix u-sheet u-sheet-1">
+            <nav class="u-align-left u-menu u-menu-hamburger u-nav-spacing-25 u-offcanvas u-menu-1" data-responsive-from="XL">
+               <div class="menu-collapse">
+                  <a class="u-button-style u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
+                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style="">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7b92"></use>
+                     </svg>
+                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-7b92" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content">
+                        <g>
+                           <rect y="36" width="302" height="30"></rect>
+                           <rect y="236" width="302" height="30"></rect>
+                           <rect y="136" width="302" height="30"></rect>
+                        </g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                        <g></g>
+                     </svg>
+                  </a>
+               </div>
+               <div class="u-custom-menu u-nav-container">
+                  <ul class="u-nav u-spacing-20 u-unstyled u-nav-1">
+                     <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="#" style="padding: 10px;">Menu</a></li>
+                     <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/" target="_blank" style="padding: 10px;">Home</a></li>
+                     <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/login" target="_blank" style="padding: 10px;">Login</a></li>
+                     <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-palette-2-base" href="/register" target="_blank" style="padding: 10px;">Register</a></li>
+                  </ul>
+               </div>
+               <div class="u-custom-menu u-nav-container-collapse">
+                  <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                     <div class="u-inner-container-layout u-sidenav-overflow">
+                        <div class="u-menu-close"></div>
+                        <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                           <li class="u-nav-item"><a class="u-button-style u-nav-link" href="#">Menu</a></li>
+                           <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/" target="_blank">Home</a></li>
+                           <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/login" target="_blank">Login</a></li>
+                           <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/register" target="_blank">Register</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+               </div>
+            </nav>
+            <p class="u-text u-text-palette-5-base u-text-1">Stress and Anxiety Detection </p>
+            <div class="u-list u-list-1">
+               <div class="u-repeater u-repeater-1">
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                        <a href="/" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-body-alt-color u-btn-1" title="home"><span class="u-file-icon u-icon u-icon-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/3293413.png'%}" alt=""></span>&nbsp;Home
+                        </a>
+                     </div>
+                  </div>
+                  {%if user.is_authenticated%}
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                        <a href="/personal"  title="profile">
+                           &nbsp;
+                           <p  title="name">{{user.email}}</p>
+                        </a>
+                     </div>
+                  </div>
+                  {%else%}
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                        <a href="/register" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-body-alt-color u-btn-2" title="register"><span class="u-file-icon u-icon u-icon-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/2921144.png' %}" alt=""></span>&nbsp;REGISTER
+                        </a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                        <a href="/login" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-body-alt-color u-btn-3" title="login"><span class="u-file-icon u-icon u-icon-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/8875055.png' %}" alt=""></span>&nbsp;LOGIN
+                        </a>
+                     </div>
+                  </div>
+                  {%endif%}
+               </div>
+            </div>
+            {%if user.is_authenticated%}
+            <a href="/out" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-white u-btn-4" title="logout"><span class="u-file-icon u-icon u-icon-4" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/4210146.png' %}" alt=""></span>&nbsp;LOGOUT
+            </a>
+            {%endif%}
+            <a href="" class="u-image u-logo u-image-1" data-image-width="1280" data-image-height="853">
+            <img src="{% static 'images/a5d9783994f73a3bb481d66c4b514487008fc5cddd16cefa985b49f20ed59b071e6be134910bd37996549ec2e62565a8f865dcf59ca91df015bfe2_1280.png'%}" class="u-logo-image u-logo-image-1">
+            </a>
+            <a href="/contact" class="u-btn u-btn-round u-button-style u-custom-item u-hover-palette-5-light-1 u-palette-5-light-2 u-radius-4 u-text-white u-btn-5" title="logout"><span class="u-file-icon u-icon u-icon-5" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><img src="{% static 'images/9458899.png' %}" alt=""></span>&nbsp;CONTACT
+            </a>
+         </div>
+      </header>
+      <br><br>
+      
+      <form  method="post" action="{%url 'gad' %}">
+         {% csrf_token %}
+         <div class="u-align-center-lg u-align-center-md u-align-center-sm u-align-center-xl u-container-style u-expanded-width u-group u-palette-1-light-2 u-block-e7c5-37">
+            <div class="u-container-layout u-valign-top u-block-e7c5-38">
+               <h1 class="u-align-center-xs u-custom-font u-font-playfair-display u-text  u-block-e7c5-39" style="color: #F43A63;">STAGE -3</h1>
+            </div>
+         </div>
+
+         <div class="u-blog u-block-e7c5-13">
+            <div class="u-repeater u-block-e7c5-47">
+              {% for key, value in questions.items %}
+              
+            
+               <div class="u-align-center u-blog-post u-repeater-item u-white u-block-e7c5-14" data-blog-post-id="6">
+                  <div class="u-container-layout u-similar-container u-valign-bottom u-block-e7c5-15">
+                     
+                     <div style="background-color: #FBAEBF;"class="u-align-center u-container-style u-group u-block-e7c5-28">
+                        <div class="u-container-layout u-valign-bottom u-block-e7c5-29">
+                           <h4 class="u-text u-block-e7c5-48" style="color: white;">Question</h4>
+                        </div>
+                     </div>
+                     <div class="u-clearfix u-custom-html u-block-e7c5-51">
+                        <br>
+                        <p>{{ value.question_display }}<br><br>
+                          
+                            {%for answerkey,answerChoice in value.answer_choices.items %}
+                            
+                           <input type="radio" id="{{key}}" name="{{key}}" value="{{answerkey}}">{{answerChoice}}<br><br>
+                             
+                             {%endfor%}
+                        
+                            </p>
+                     </div>
+                  </div>
+               </div>
+               {% endfor %}
+               <button class="u-btn u-btn-round 
+                  u-button-style u-palette-2-base u-radius-5 u-block-ef42-53" >submit</button>
+            </div>
+         </div>
+      </form>
+
+      <p style="font-size:13px"><b>Source:</b> Social Interaction Anxiety Scale (SIAS)
+,Document is in the public domain. Duplicating this material for personal or group use is permissible      </p>
+
+
+      <br>
+      <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-96a5">
+         <div class="u-clearfix u-sheet u-sheet-1">
+            <p class="u-small-text u-text u-text-variant u-text-1">Thank you for visiting...!!!</p>
+            <div class="u-list u-list-1">
+               <div class="u-repeater u-repeater-1">
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                        <a href="/" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-1" rel="nofollow">Home</a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                        <a href="/register" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-2" rel="nofollow">Register</a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                        <a href="/login" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-3" rel="nofollow">Login<span class="u-text-body-alt-color"></span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
+                        <a href="/contact" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-4" rel="nofollow">Contact</a>
+                     </div>
+                  </div>
+                  <div class="u-container-style u-list-item u-repeater-item">
+                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-5">
+                        <a href="/out" class="u-active-none u-border-2 u-border-no-left u-border-no-right u-border-no-top u-border-palette-1-base u-btn u-button-style u-custom-item u-hover-none u-none u-text-body-alt-color u-btn-5" rel="nofollow">Logout</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

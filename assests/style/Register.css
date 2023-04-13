@@ -1,0 +1,256 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 633px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  width: 756px;
+  margin: 60px auto;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 1267px;
+  background-image: url("https://assets.nicepagecdn.com/11a8ddce/3952930/images/enthusiastic-joyful-surprised-woman-introduce-incredible-offer-pointing-finger-left-copy-space-smiling-joyfully-impressed-look-camera-touch-cheek-astonished-white-wall.jpg");
+  background-position: 74.65% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 1267px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0 60px 0 0;
+}
+
+.u-section-1 .u-form-1 {
+  height: 312px;
+  width: 320px;
+  margin: 21px 0 0;
+}
+
+.u-section-1 .u-input-1 {
+  height: 55px;
+  background-image: none;
+}
+
+.u-section-1 .u-form-group-2 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-label-2 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-input-2 {
+  background-image: none;
+  height: 55px;
+}
+
+.u-section-1 .u-input-3 {
+  height: 55px;
+  background-image: none;
+}
+
+.u-section-1 .u-form-group-4 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-4 {
+  background-image: none;
+}
+
+.u-section-1 .u-form-group-5 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-5 {
+  background-image: none;
+  height: 55px;
+}
+
+.u-section-1 .u-form-group-6 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-6 {
+  background-image: none;
+  height: 55px;
+}
+
+.u-section-1 .u-form-group-7 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-7 {
+  background-image: none;
+  height: 55px;
+}
+
+.u-section-1 .u-form-group-8 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-8 {
+  background-image: none;
+  height: 55px;
+}
+
+.u-section-1 .u-form-group-9 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-input-9 {
+  background-image: none;
+}
+
+.u-section-1 .u-form-group-10 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-image: none;
+  width: 100%;
+  padding: 14px 0 15px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-form-1 {
+    width: 192px;
+  }
+
+  .u-section-1 .u-form-group-2 {
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .u-section-1 .u-form-group-4 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-input-4 {
+    height: 55px;
+  }
+
+  .u-section-1 .u-form-group-5 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-form-group-6 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-form-group-7 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-form-group-8 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-form-group-9 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-input-9 {
+    height: 55px;
+  }
+
+  .u-section-1 .u-form-group-10 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 609px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 1207px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 42px;
+    margin-left: 48px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1198px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 540px;
+    margin-bottom: -62px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 590px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 913px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 340px;
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 371px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

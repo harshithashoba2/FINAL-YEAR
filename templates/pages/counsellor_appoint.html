@@ -1,0 +1,72 @@
+{% extends 'pages/counsellor_home.html' %}
+{%block content%}
+{%load mytags%}
+<div class="card">
+    <div class="card-body">
+        <!--<i class="fa fa-pen fa-xs edit"></i>-->
+        <form method="POST" > 
+          {%csrf_token%}
+        <table style="margin-left:auto;margin-right:auto;border-spacing: 20px">
+            <tbody>
+              <tr>
+                <th style="color:#f43a63">Sample Id</th>
+                <th style="color:#f43a63">Sample Email</th>
+                <th style="color:#f43a63">Sample Name</th>
+                <th style="color:#f43a63">Sample Phone</th>
+                <th style="color:#f43a63">Psychologist Name</th>
+                <th style="color:#f43a63">Psychologist Phone</th>
+                <th style="color:#f43a63">Psychologist Address</th>
+                <th style="color:#f43a63">Session</th>
+                <th style="color:#f43a63">Date</th>
+                <th style="color:#f43a63">Time</th>
+              </tr>
+              
+              {% for p in prof%}
+              {%for a in p%}
+              
+                <tr>
+                 
+                 
+                  <td>{{a.id}}</td>
+                  <td>{{a.email}}</td>
+                  <td>{{a.name|decrypt}}</td>
+                  <td>{{a.phone|decrypt}}</td>
+                  {% for d in doc%}
+                  {%for b in d%}
+                  <td>{{b.name}}</td>
+                  <td>{{b.phone}}</td>
+                  <td>{{b.door}},{{b.street}},{{b.city}},{{b.state}}</td>
+                  
+                  {%endfor%}
+                  {%endfor%}
+                  
+                  {%for m in app%}
+              
+                  <td>{{m.session}}</td>
+                  <td>{{m.date}}</td>
+                  <td>{{m.time}}</td>
+                  
+                  {%endfor%}
+              </tr>
+              {%endfor%}
+              {% endfor%}
+              
+              
+              
+                
+                
+            
+              
+              
+            </tbody>
+        </table>
+    </form>
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+
+{%endblock%}
